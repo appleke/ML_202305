@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import sklearn as sk
+
 from sklearn.metrics import classification_report
 
 
