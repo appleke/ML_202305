@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-from sklearn.metrics import classification_report
+#from sklearn.metrics import classification_report
 
 
 from sklearn import datasets
@@ -100,11 +100,11 @@ clf.fit(X_train,y_train)
 y_pred = clf.predict(X_test)
 #評估準確率
 acc = accuracy_score(y_test,y_pred)
-report = classification_report(y_test, y_pred,digits=3)
+#report = classification_report(y_test, y_pred,digits=3)
 
 #顯示結果
 st.write('#### 準確率',acc)
-st.write( '#### 結果', report)
+#st.write( '#### 結果', report)
 
 #PCA 降維
 pca = PCA(2)
