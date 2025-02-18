@@ -100,7 +100,7 @@ clf.fit(X_train,y_train)
 y_pred = clf.predict(X_test)
 #評估準確率
 acc = accuracy_score(y_test,y_pred)
-report = classification_report(y_test, y_pred,digits=5)
+report = classification_report(y_test, y_pred,digits=3)
 
 #顯示結果
 st.write('#### 準確率',acc)
