@@ -104,7 +104,7 @@ report = classification_report(y_test, y_pred,digits=3)
 
 #顯示結果
 st.write('#### 準確率',acc)
-st.write( '#### 結果', report)
+st.write('#### 結果', report)
 
 #PCA 降維
 pca = PCA(2)
