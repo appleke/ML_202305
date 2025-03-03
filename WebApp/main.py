@@ -122,8 +122,8 @@ plt.scatter(
     c=y,
     alpha=0.7
     )
-plt.xlabel('X軸')
-plt.ylabel('Y軸')
+plt.xlabel('X')
+plt.ylabel('Y')
 st.pyplot(fig)
 
 
